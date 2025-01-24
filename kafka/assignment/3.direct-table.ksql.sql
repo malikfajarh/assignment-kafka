@@ -1,0 +1,1 @@
+SELECT * FROM spotify_table;

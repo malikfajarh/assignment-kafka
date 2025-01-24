@@ -1,5 +1,7 @@
 # Dibimbing, Data Engineering Bootcamp
 
+run kafka-create-test-topic
+
 1. Clone This Repo.
 2. Run `make docker-build` for x86 user, or `make docker-build-arm` for arm chip user.
 

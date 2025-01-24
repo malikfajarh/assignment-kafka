@@ -1,0 +1,15 @@
+syntax = "proto3";
+
+message Spotify {
+    string track_id = 1;
+    string track_name = 2;
+    string artist = 3;
+    string genre = 4;
+    int32 popularity = 5;
+    int32 duration = 6;
+    int32 tempo = 7;
+    bool explicit = 8;
+    string interaction = 9;
+    string listened_from = 10;
+    int64 ts = 11;
+}

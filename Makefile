@@ -149,7 +149,7 @@ kafka-create:
 kafka-create-test-topic:
 	@docker exec ${KAFKA_CONTAINER_NAME} \
 		kafka-topics.sh --create \
-		--partitions 3 \
+		--partitions 2 \
 		--replication-factor ${KAFKA_REPLICATION} \
 		--bootstrap-server localhost:9092 \
 		--topic ${KAFKA_TOPIC_NAME}
